@@ -1,0 +1,43 @@
+.logo {
+  /* height:100px; */
+  width: 150px;
+  margin-left: 20px;
+}
+.nav-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.list-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.btn-logout {
+  background-color: #0b69ff;
+  color: #ffffff;
+  height: 32px;
+  width: 80px;
+  border-radius: 5px;
+  border-style: none;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.list-btn-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  font-size: 18px;
+  margin: 15px;
+
+  list-style-type: none;
+}
+.link-item {
+  list-style-type: none;
+  text-decoration: none;
+  color: #475569;
+}

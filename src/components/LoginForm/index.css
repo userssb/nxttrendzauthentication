@@ -1,0 +1,43 @@
+.bg-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-img {
+  width: 800px;
+  height: 500px;
+  margin-right: 40px;
+}
+.form-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: beige;
+  height: 280px;
+  width: 250px;
+  padding-left: 20px;
+}
+.label {
+  font-size: 12px;
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+.user-name {
+  margin-bottom: 20px;
+  height: 32px;
+  width: 200px;
+}
+.password {
+  margin-bottom: 20px;
+  height: 32px;
+  width: 200px;
+}
+.btn-submit {
+  background-color: #0967d2;
+  height: 35px;
+  width: 200px;
+  border-radius: 5px;
+  color: white;
+  border-style: none;
+}
