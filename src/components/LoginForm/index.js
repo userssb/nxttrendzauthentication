@@ -4,14 +4,14 @@ import './index.css'
 
 class LoginForm extends Component {
   state = {
-    userName: '',
+    username: '',
     password: '',
   }
 
   onSubmitForm = async event => {
     event.preventDefault()
-    const {userName, password} = this.state
-    const userDetails = {userName, password}
+    const {username, password} = this.state
+    const userDetails = {username, password}
     const options = {
       method: 'POST',
       body: JSON.stringify(userDetails),
@@ -23,7 +23,7 @@ class LoginForm extends Component {
   }
 
   onChangeUserName = event => {
-    this.setState({userName: event.target.value})
+    this.setState({username: event.target.value})
   }
 
   onChangePassword = event => {
@@ -31,7 +31,7 @@ class LoginForm extends Component {
   }
 
   render() {
-    const {userName, password} = this.state
+    const {username, password} = this.state
     return (
       <div className="bg-cont">
         <img
@@ -52,7 +52,7 @@ class LoginForm extends Component {
           <input
             type="text"
             id="txtUser"
-            value={userName}
+            value={username}
             onChange={this.onChangeUserName}
             className="user-name"
           />
